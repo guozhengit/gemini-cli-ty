@@ -1,6 +1,13 @@
-# Gemini CLI - 支持代理和上下文管理的Gemini命令行工具
+# 🤖 Gemini CLI 
 
-一个功能强大的Gemini API命令行工具，专为网络受限地区用户设计，支持代理访问和智能上下文管理。
+[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code Style](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Powered by Gemini](https://img.shields.io/badge/Powered%20by-Gemini%20API-4285f4.svg)](https://ai.google.dev)
+
+> 🌟 **功能强大的Gemini API命令行工具** - 专为网络受限地区用户设计，支持代理访问和智能上下文管理
+
+一个基于Python的Gemini API命令行工具，具有企业级的对话管理能力，让你在终端中享受智能AI助手服务。
 
 ## 🌟 核心特性
 
@@ -171,4 +178,55 @@ You: q
 
 ## 许可证
 
-MIT License
+## 🎆 快速开始
+
+1. **克隆项目**
+```bash
+git clone https://github.com/YOUR_USERNAME/gemini-cli.git
+cd gemini-cli
+```
+
+2. **安装依赖**
+```bash
+pip install -r requirements.txt
+```
+
+3. **配置环境**
+```bash
+cp .env.example .env
+# 编辑 .env 文件，填入你的API密钥和代理设置
+```
+
+4. **测试连接**
+```bash
+python gemini_cli.py test
+```
+
+5. **开始使用**
+```bash
+python gemini_cli.py chat
+```
+
+## 🤝 贡献指南
+
+欢迎贡献！请阅读 [SECURITY.md](SECURITY.md) 了解安全规范。
+
+1. Fork 项目
+2. 创建特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送分支 (`git push origin feature/AmazingFeature`)
+5. 创建 Pull Request
+
+## 📝 许可证
+
+该项目采用 MIT 许可证 - 查看 [LICENSE](LICENSE) 文件获取详情。
+
+## ⭐ 支持项目
+
+如果这个项目对你有帮助，请给个⭐！你的支持是我们持续改进的动力。
+
+---
+
+<div align="center">
+🌟 **由 Google Gemini 驱动** • **为开发者而生** • **开源永远** 🌟
+</div>
